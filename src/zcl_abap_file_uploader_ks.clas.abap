@@ -1,4 +1,4 @@
-CLASS zcl_abap_file_uploader DEFINITION
+CLASS zcl_abap_file_uploader_ks DEFINITION
   PUBLIC
   CREATE PUBLIC .
 
@@ -22,7 +22,7 @@ CLASS zcl_abap_file_uploader DEFINITION
 
 ENDCLASS.
 
-CLASS zcl_abap_file_uploader  IMPLEMENTATION.
+CLASS zcl_abap_file_uploader_ks  IMPLEMENTATION.
 
   METHOD if_http_service_extension~handle_request.
 
